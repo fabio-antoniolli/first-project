@@ -1,8 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="it">
-<head><title>Ciao Mondo!</title></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Profilo Professionale</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        header { text-align: center; background: #2c3e50; color: white; padding: 2rem; border-radius: 10px; }
+        img { border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 5px solid #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        section { background: white; margin: 20px 0; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #3498db; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        footer { text-align: center; padding: 20px; font-size: 0.9em; color: #666; }
+        .contact-info a { margin: 0 10px; text-decoration: none; color: #3498db; font-weight: bold; }
+    </style>
+</head>
 <body>
-<h1>CODING GITHUB</h1>
-<p>Questa è la nostra prima pagina HTML!</p>
+
+    <header>
+        <img src="https://via.placeholder.com/200" alt="La mia foto profilo">
+        <h1>Ciao, sono Fabio Antoniolli</h1>
+        <p>Benvenuti nella mia pagina di presentazione personale.</p>
+    </header>
+
+    <section id="bio">
+        <h2>Chi sono</h2>
+        <p>Sono una persona appassionata di tecnologia e innovazione. Mi piace imparare cose nuove ogni giorno e affrontare sfide che mi permettano di crescere sia professionalmente che personalmente.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobby e Interessi</h2>
+        <ul>
+            <li><strong>Sviluppo Web:</strong> Creare siti e applicazioni è la mia passione principale.</li>
+            <li><strong>Viaggi:</strong> Adoro scoprire nuove culture e tradizioni culinarie.</li>
+            <li><strong>Sport:</strong> Appassionato di escursionismo e padel.</li>
+            <li><strong>Lettura:</strong> Fan accanito di saggi sulla crescita personale e romanzi sci-fi.</li>
+        </ul>
+    </section>
+
+    <section id="esperienze">
+        <h2>Esperienze Accademiche e Lavorative</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Periodo</th>
+                    <th>Ruolo / Titolo</th>
+                    <th>Istituzione / Azienda</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021 - Presente</td>
+                    <td>Web Developer Freelance</td>
+                    <td>Lavoro Autonomo</td>
+                </tr>
+                <tr>
+                    <td>2018 - 2021</td>
+                    <td>Laurea in interfacce e tecnologie</td>
+                    <td>Università degli Studi di Rovereto</td>
+                </tr>
+                <tr>
+                    <td>2017 - 2018</td>
+                    <td>Stage Front-end</td>
+                    <td>Epicode</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <h2>Contatti</h2>
+            <p>📧 Email: <a href="mailto:fabiounitn@gmail.com">fabiounitn@gmail.com</a></p>
+            <p>📞 Telefono: +39 3409576827</p>
+            <p>
+                <a href="https://www.linkedin.com/in/fabio-antoniolli-75b668136/" target="_blank">LinkedIn</a> | 
+                
+            </p>
+        </div>
+        <p>&copy; 2026 - Realizzato da FA</p>
+    </footer>
+
 </body>
 </html>
